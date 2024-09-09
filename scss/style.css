@@ -1,0 +1,169 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: inherit;
+  border-width: none;
+  border-style: none;
+  border-color: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Museo Sans Cyrl";
+}
+
+.container {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/Museo-Sans-Cyrl-100.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/Museo-Sans-Cyrl-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/Museo-Sans-Cyrl-500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/Museo-Sans-Cyrl-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/Museo-Sans-Cyrl-900.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+body {
+  --main-color-text: rgba(26, 26, 26, 1);
+}
+
+.delivery {
+  max-width: 750px;
+  width: 100%;
+  margin: 22px 0 80px 0;
+}
+.delivery__top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+.delivery__title {
+  color: var(--main-color-text);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-right: 12px;
+}
+.delivery__share {
+  max-width: 24px;
+  max-height: 24px;
+}
+.delivery__share img {
+  width: 100%;
+}
+.delivery__text {
+  width: 100%;
+  color: var(--main-color-text);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+.delivery .connection__title {
+  color: var(--main-color-text);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.6px;
+  margin-bottom: 16px;
+}
+.delivery .connection__btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  grid-gap: 8px;
+}
+.delivery .connection__btn {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 8px;
+  background: rgb(249, 249, 249);
+  border-radius: 12px;
+}
+.delivery .connection__btn:nth-child(1) {
+  max-width: 224px;
+  width: 100%;
+  background: rgb(54, 186, 95);
+}
+.delivery .connection__icon {
+  max-width: 16px;
+  max-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delivery .connection__icon img {
+  width: 100%;
+  height: 100%;
+}
+.delivery .connection__name {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}/*# sourceMappingURL=style.css.map */
